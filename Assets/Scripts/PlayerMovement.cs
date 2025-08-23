@@ -1,164 +1,348 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
-    [SerializeField] private float walkAnimationSpeed = 1.5f; // Speed for walk animations
-    [SerializeField] private float runAnimationSpeed = 2.0f;  // Speed for run animations
+    [Header("Movement Settings")]
+    [SerializeField] private float walkSpeed = 5f;
+    [SerializeField] private float runSpeed = 8f;
+    [SerializeField] private float acceleration = 10f;
+    [SerializeField] private float deceleration = 15f;
     
-    private Vector2 movement;
-    private Vector2 lastMovement; // To remember last direction for idle animations
+    [Header("Input Settings")]
+    [SerializeField] private KeyCode runKey = KeyCode.LeftShift;
+    [SerializeField] private KeyCode jumpKey = KeyCode.Space;
+    [SerializeField] private KeyCode duckKey = KeyCode.LeftControl;
+    [SerializeField] private KeyCode attackKey = KeyCode.Z;
+    [SerializeField] private KeyCode slideKey = KeyCode.X;
+    
+    // Components
+    private Vector2 inputDirection;
+    private Vector2 currentVelocity;
     private Rigidbody2D rb;
-    private AnimationPlayer animationPlayer;
+    private AnimationController animationController;
     
-    // Animation state tracking
-    private bool isMoving = false;
-    private string currentAnimationState = "";
+    // State tracking
+    private bool isRunning = false;
+    private bool isDucking = false;
+    private bool isJumping = false;
+    private bool isAttacking = false;
+    private bool isSliding = false;
+    
+    // Action timers
+    private float jumpTimer = 0f;
+    private float attackTimer = 0f;
+    private float slideTimer = 0f;
+    
+    [Header("Action Durations")]
+    [SerializeField] private float jumpDuration = 0.5f;
+    [SerializeField] private float attackDuration = 0.6f;
+    [SerializeField] private float slideDuration = 0.8f;
     
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animationPlayer = GetComponentInChildren<AnimationPlayer>();
+        animationController = GetComponent<AnimationController>();
         
-        // Initialize with idle_down as default
-        lastMovement = Vector2.down;
-        
-        // Only play animation if AnimationPlayer is properly set up
-        if (animationPlayer != null)
+        if (animationController == null)
         {
-            PlayAnimation("idle", lastMovement);
+            animationController = GetComponentInChildren<AnimationController>();
+        }
+        
+        if (animationController == null)
+        {
+            Debug.LogError($"No AnimationController found on {gameObject.name} or its children!");
+        }
+        
+        // Initialize with idle state
+        if (animationController != null)
+        {
+            animationController.SetMovementDirection(Vector2.zero, 0f);
         }
     }
     
     void Update()
     {
-        // Get input
-        movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-        
-        // Update animation based on movement
-        UpdateAnimation();
+        HandleInput();
+        UpdateActionTimers();
+        UpdateMovement();
+        UpdateAnimations();
     }
     
     void FixedUpdate()
     {
-        // Apply movement directly as velocity for snappier controls
-        rb.velocity = movement * speed;
+        ApplyMovement();
     }
     
-    void UpdateAnimation()
+    private void HandleInput()
     {
-        bool wasMoving = isMoving;
-        isMoving = movement.magnitude > 0.1f;
+        // Get movement input
+        inputDirection = new Vector2(
+            Input.GetAxisRaw("Horizontal"), 
+            Input.GetAxisRaw("Vertical")
+        ).normalized;
         
-        if (isMoving)
+        // Handle run input
+        bool runPressed = Input.GetKey(runKey);
+        if (runPressed != isRunning)
         {
-            // Update last movement direction for when we stop
-            lastMovement = movement;
-            
-            // Set animation speed for walking
-            animationPlayer.SetAnimationSpeed(walkAnimationSpeed);
-            
-            // Play walking animation in the direction we're moving
-            PlayAnimation("walk", movement);
-        }
-        else if (wasMoving) // Just stopped moving
-        {
-            // Set normal speed for idle animations
-            animationPlayer.SetAnimationSpeed(1.0f);
-            
-            // Play idle animation in the last direction we were facing
-            PlayAnimation("idle", lastMovement);
-        }
-    }
-    
-    private void PlayAnimation(string baseAnimationName, Vector2 direction)
-    {
-        string directionSuffix = GetDirectionSuffix(direction);
-        string animationName = $"{baseAnimationName}_{directionSuffix}";
-        
-        // Handle sprite flipping for horizontal movement
-        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
-        {
-            HandleSpriteFlipping(direction.x > 0);
-        }
-        
-        // Only play if it's different from current animation
-        if (currentAnimationState != animationName)
-        {
-            if (animationPlayer.HasAnimation(animationName))
+            isRunning = runPressed;
+            if (animationController != null)
             {
-                animationPlayer.Play(animationName);
-                currentAnimationState = animationName;
-            }
-            else
-            {
-                Debug.LogWarning($"Animation not found: {animationName}");
+                animationController.Run(isRunning);
             }
         }
-    }
-    
-    private void HandleSpriteFlipping(bool shouldFaceRight)
-    {
-        // Use the AnimationPlayer's sprite flipping functionality
-        if (animationPlayer.IsFacingRight() != shouldFaceRight)
+        
+        // Handle duck input
+        bool duckPressed = Input.GetKey(duckKey);
+        if (duckPressed != isDucking)
         {
-            animationPlayer.SetFacing(shouldFaceRight);
+            isDucking = duckPressed;
+            if (animationController != null)
+            {
+                animationController.Duck(isDucking);
+            }
+        }
+        
+        // Handle action inputs (only if not already performing the action)
+        if (Input.GetKeyDown(jumpKey) && !isJumping)
+        {
+            StartJump();
+        }
+        
+        if (Input.GetKeyDown(attackKey) && !isAttacking)
+        {
+            StartAttack();
+        }
+        
+        if (Input.GetKeyDown(slideKey) && !isSliding)
+        {
+            StartSlide();
         }
     }
     
-    private string GetDirectionSuffix(Vector2 direction)
+    private void UpdateActionTimers()
     {
-        // Determine direction based on the largest component
-        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        // Update jump timer
+        if (isJumping)
         {
-            return "side"; // Left or right (you can handle flipping separately)
+            jumpTimer -= Time.deltaTime;
+            if (jumpTimer <= 0f)
+            {
+                EndJump();
+            }
         }
-        else
+        
+        // Update attack timer
+        if (isAttacking)
         {
-            return direction.y > 0 ? "up" : "down";
+            attackTimer -= Time.deltaTime;
+            if (attackTimer <= 0f)
+            {
+                EndAttack();
+            }
         }
-    }
-    
-    // Public methods for triggering other animations
-    public void Jump()
-    {
-        PlayAnimation("jump", lastMovement);
-    }
-    
-    public void Duck()
-    {
-        PlayAnimation("duck", lastMovement);
-    }
-    
-    public void Run()
-    {
-        if (isMoving)
+        
+        // Update slide timer
+        if (isSliding)
         {
-            // Set faster animation speed for running
-            animationPlayer.SetAnimationSpeed(runAnimationSpeed);
-            PlayAnimation("run", movement);
+            slideTimer -= Time.deltaTime;
+            if (slideTimer <= 0f)
+            {
+                EndSlide();
+            }
         }
     }
     
-    public void Attack()
+    private void UpdateMovement()
     {
-        // Set normal speed for attack animations
-        animationPlayer.SetAnimationSpeed(1.2f);
-        PlayAnimation("sword_attack", lastMovement);
+        // Calculate target speed based on run state and ducking
+        float targetSpeed = isRunning ? runSpeed : walkSpeed;
+        
+        // Reduce speed while ducking
+        if (isDucking)
+        {
+            targetSpeed *= 0.5f;
+        }
+        
+        // Calculate target velocity
+        Vector2 targetVelocity = inputDirection * targetSpeed;
+        
+        // Apply acceleration/deceleration
+        float accelerationRate = inputDirection.magnitude > 0.1f ? acceleration : deceleration;
+        currentVelocity = Vector2.MoveTowards(currentVelocity, targetVelocity, accelerationRate * Time.deltaTime);
     }
     
-    public void Slide()
+    private void ApplyMovement()
     {
-        // Set fast speed for slide animations
-        animationPlayer.SetAnimationSpeed(1.8f);
-        PlayAnimation("slide", lastMovement);
+        // Don't move while sliding (slide handles its own movement)
+        if (!isSliding)
+        {
+            rb.velocity = currentVelocity;
+        }
     }
     
-    // Manual sprite flipping (useful for UI or other interactions)
-    public void FlipSprite(bool faceRight)
+    private void UpdateAnimations()
     {
-        animationPlayer.SetFacing(faceRight);
+        if (animationController == null) return;
+        
+        // Calculate animation direction and speed
+        Vector2 animDirection = inputDirection;
+        float animSpeed = currentVelocity.magnitude / walkSpeed; // Normalize speed for animation
+        
+        // Update animation controller
+        animationController.SetMovementDirection(animDirection, animSpeed);
     }
+    
+    #region Action Methods
+    
+    private void StartJump()
+    {
+        isJumping = true;
+        jumpTimer = jumpDuration;
+        
+        if (animationController != null)
+        {
+            animationController.Jump();
+        }
+        
+        Debug.Log("Started jump");
+    }
+    
+    private void EndJump()
+    {
+        isJumping = false;
+        
+        if (animationController != null)
+        {
+            animationController.StopJump();
+        }
+        
+        Debug.Log("Ended jump");
+    }
+    
+    private void StartAttack()
+    {
+        isAttacking = true;
+        attackTimer = attackDuration;
+        
+        if (animationController != null)
+        {
+            animationController.Attack();
+        }
+        
+        Debug.Log("Started attack");
+    }
+    
+    private void EndAttack()
+    {
+        isAttacking = false;
+        
+        if (animationController != null)
+        {
+            animationController.StopAttack();
+        }
+        
+        Debug.Log("Ended attack");
+    }
+    
+    private void StartSlide()
+    {
+        isSliding = true;
+        slideTimer = slideDuration;
+        
+        if (animationController != null)
+        {
+            animationController.Slide();
+        }
+        
+        // Apply slide velocity in the direction we're facing
+        Vector2 slideDirection = animationController.GetLastNonZeroDirection();
+        rb.velocity = slideDirection * runSpeed * 1.5f; // Slide faster than running
+        
+        Debug.Log("Started slide");
+    }
+    
+    private void EndSlide()
+    {
+        isSliding = false;
+        
+        if (animationController != null)
+        {
+            animationController.StopSlide();
+        }
+        
+        Debug.Log("Ended slide");
+    }
+    
+    #endregion
+    
+    #region Public Methods for External Scripts
+    
+    public bool IsMoving() => currentVelocity.magnitude > 0.1f;
+    public bool IsRunning() => isRunning;
+    public bool IsDucking() => isDucking;
+    public bool IsJumping() => isJumping;
+    public bool IsAttacking() => isAttacking;
+    public bool IsSliding() => isSliding;
+    
+    public Vector2 GetMovementDirection() => inputDirection;
+    public Vector2 GetVelocity() => currentVelocity;
+    public Vector2 GetFacingDirection() => animationController?.GetLastNonZeroDirection() ?? Vector2.down;
+    
+    // Manual control methods for external scripts
+    public void SetMovementInput(Vector2 direction)
+    {
+        inputDirection = direction.normalized;
+    }
+    
+    public void ForceJump()
+    {
+        if (!isJumping)
+        {
+            StartJump();
+        }
+    }
+    
+    public void ForceAttack()
+    {
+        if (!isAttacking)
+        {
+            StartAttack();
+        }
+    }
+    
+    public void ForceSlide()
+    {
+        if (!isSliding)
+        {
+            StartSlide();
+        }
+    }
+    
+    public void SetFacing(bool faceRight)
+    {
+        if (animationController != null)
+        {
+            animationController.SetFacing(faceRight);
+        }
+    }
+    
+    #endregion
+    
+    #region Debug
+    
+    [ContextMenu("Debug Movement State")]
+    public void DebugMovementState()
+    {
+        Debug.Log("=== Player Movement State ===");
+        Debug.Log($"Input Direction: {inputDirection}");
+        Debug.Log($"Current Velocity: {currentVelocity}");
+        Debug.Log($"Is Running: {isRunning}");
+        Debug.Log($"Is Ducking: {isDucking}");
+        Debug.Log($"Is Jumping: {isJumping} (Timer: {jumpTimer:F2})");
+        Debug.Log($"Is Attacking: {isAttacking} (Timer: {attackTimer:F2})");
+        Debug.Log($"Is Sliding: {isSliding} (Timer: {slideTimer:F2})");
+    }
+    
+    #endregion
 }
