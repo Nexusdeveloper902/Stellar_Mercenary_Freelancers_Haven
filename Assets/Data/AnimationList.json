@@ -1,0 +1,1708 @@
+{
+    "animations": [
+        {
+            "name": "bomb",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb.anim"
+        },
+        {
+            "name": "bomb_explosion",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_explosion.anim"
+        },
+        {
+            "name": "bomb_hold_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_hold_down.anim"
+        },
+        {
+            "name": "bomb_hold_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_hold_side-overlay.anim"
+        },
+        {
+            "name": "bomb_hold_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_hold_side.anim"
+        },
+        {
+            "name": "bomb_hold_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_hold_up.anim"
+        },
+        {
+            "name": "bomb_throw_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_throw_down.anim"
+        },
+        {
+            "name": "bomb_throw_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_throw_side.anim"
+        },
+        {
+            "name": "bomb_throw_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_throw_up.anim"
+        },
+        {
+            "name": "bomb_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_walk_down.anim"
+        },
+        {
+            "name": "bomb_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_walk_side-overlay.anim"
+        },
+        {
+            "name": "bomb_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_walk_side.anim"
+        },
+        {
+            "name": "bomb_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bomb_walk_up.anim"
+        },
+        {
+            "name": "bow_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bow_down-overlay.anim"
+        },
+        {
+            "name": "bow_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bow_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bow_walk_down-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bow_walk_down.anim"
+        },
+        {
+            "name": "bow_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bow_walk_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bow_walk_side.anim"
+        },
+        {
+            "name": "bow_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/bow_walk_up.anim"
+        },
+        {
+            "name": "crawl_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/crawl_down.anim"
+        },
+        {
+            "name": "crawl_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/crawl_side.anim"
+        },
+        {
+            "name": "crawl_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/crawl_up.anim"
+        },
+        {
+            "name": "duck_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/duck_down.anim"
+        },
+        {
+            "name": "duck_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/duck_side.anim"
+        },
+        {
+            "name": "duck_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/duck_up.anim"
+        },
+        {
+            "name": "gun_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/gun_walk_down.anim"
+        },
+        {
+            "name": "gun_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/gun_walk_side-overlay.anim"
+        },
+        {
+            "name": "gun_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/gun_walk_side.anim"
+        },
+        {
+            "name": "gun_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/gun_walk_up.anim"
+        },
+        {
+            "name": "hammer_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hammer_attack_down-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hammer_attack_down.anim"
+        },
+        {
+            "name": "hammer_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hammer_attack_side-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hammer_attack_side.anim"
+        },
+        {
+            "name": "hammer_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hammer_attack_up.anim"
+        },
+        {
+            "name": "hit_A_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hit_A_down.anim"
+        },
+        {
+            "name": "hit_A_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hit_A_side.anim"
+        },
+        {
+            "name": "hit_A_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hit_A_up.anim"
+        },
+        {
+            "name": "hit_B_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hit_B_down.anim"
+        },
+        {
+            "name": "hit_B_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hit_B_side.anim"
+        },
+        {
+            "name": "hit_B_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/hit_B_up.anim"
+        },
+        {
+            "name": "idle_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/idle_down.anim"
+        },
+        {
+            "name": "idle_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/idle_side.anim"
+        },
+        {
+            "name": "idle_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/idle_up.anim"
+        },
+        {
+            "name": "jump_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/jump_down.anim"
+        },
+        {
+            "name": "jump_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/jump_side.anim"
+        },
+        {
+            "name": "jump_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/jump_up.anim"
+        },
+        {
+            "name": "muzzle_flash_gun",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/muzzle_flash_gun.anim"
+        },
+        {
+            "name": "muzzle_flash_rifle",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/muzzle_flash_rifle.anim"
+        },
+        {
+            "name": "rifle_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/rifle_walk_down.anim"
+        },
+        {
+            "name": "rifle_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/rifle_walk_side-overlay.anim"
+        },
+        {
+            "name": "rifle_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/rifle_walk_side.anim"
+        },
+        {
+            "name": "rifle_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/rifle_walk_up.anim"
+        },
+        {
+            "name": "run_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/run_down.anim"
+        },
+        {
+            "name": "run_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/run_side.anim"
+        },
+        {
+            "name": "run_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/run_up.anim"
+        },
+        {
+            "name": "scythe_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/scythe_attack_down-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/scythe_attack_down.anim"
+        },
+        {
+            "name": "scythe_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/scythe_attack_side-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/scythe_attack_side.anim"
+        },
+        {
+            "name": "scythe_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/scythe_attack_up.anim"
+        },
+        {
+            "name": "slide_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/slide_down.anim"
+        },
+        {
+            "name": "slide_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/slide_side.anim"
+        },
+        {
+            "name": "slide_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/slide_up.anim"
+        },
+        {
+            "name": "sword_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/sword_attack_down-overlay.anim"
+        },
+        {
+            "name": "sword_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/sword_attack_down.anim"
+        },
+        {
+            "name": "sword_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/sword_attack_side-overlay.anim"
+        },
+        {
+            "name": "sword_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/sword_attack_side.anim"
+        },
+        {
+            "name": "sword_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/sword_attack_up.anim"
+        },
+        {
+            "name": "vanish",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/vanish.anim"
+        },
+        {
+            "name": "walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/walk_down.anim"
+        },
+        {
+            "name": "walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/walk_side.anim"
+        },
+        {
+            "name": "walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/walk_up.anim"
+        },
+        {
+            "name": "weapon_bow_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_bow_down.anim"
+        },
+        {
+            "name": "weapon_bow_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_bow_side.anim"
+        },
+        {
+            "name": "weapon_bow_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_bow_up.anim"
+        },
+        {
+            "name": "weapon_hammer_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_hammer_down.anim"
+        },
+        {
+            "name": "weapon_hammer_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_hammer_side.anim"
+        },
+        {
+            "name": "weapon_hammer_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_hammer_up.anim"
+        },
+        {
+            "name": "weapon_scythe_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_scythe_down.anim"
+        },
+        {
+            "name": "weapon_scythe_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_scythe_side.anim"
+        },
+        {
+            "name": "weapon_scythe_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_scythe_up.anim"
+        },
+        {
+            "name": "weapon_sword_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_sword_down.anim"
+        },
+        {
+            "name": "weapon_sword_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_sword_side.anim"
+        },
+        {
+            "name": "weapon_sword_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant A/Animations/weapon_sword_up.anim"
+        },
+        {
+            "name": "bomb",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb.anim"
+        },
+        {
+            "name": "bomb_explosion",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_explosion.anim"
+        },
+        {
+            "name": "bomb_hold_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_hold_down.anim"
+        },
+        {
+            "name": "bomb_hold_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_hold_side-overlay.anim"
+        },
+        {
+            "name": "bomb_hold_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_hold_side.anim"
+        },
+        {
+            "name": "bomb_hold_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_hold_up.anim"
+        },
+        {
+            "name": "bomb_throw_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_throw_down.anim"
+        },
+        {
+            "name": "bomb_throw_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_throw_side.anim"
+        },
+        {
+            "name": "bomb_throw_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_throw_up.anim"
+        },
+        {
+            "name": "bomb_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_walk_down.anim"
+        },
+        {
+            "name": "bomb_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_walk_side-overlay.anim"
+        },
+        {
+            "name": "bomb_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_walk_side.anim"
+        },
+        {
+            "name": "bomb_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bomb_walk_up.anim"
+        },
+        {
+            "name": "bow_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bow_down-overlay.anim"
+        },
+        {
+            "name": "bow_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bow_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bow_walk_down-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bow_walk_down.anim"
+        },
+        {
+            "name": "bow_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bow_walk_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bow_walk_side.anim"
+        },
+        {
+            "name": "bow_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/bow_walk_up.anim"
+        },
+        {
+            "name": "crawl_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/crawl_down.anim"
+        },
+        {
+            "name": "crawl_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/crawl_side.anim"
+        },
+        {
+            "name": "crawl_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/crawl_up.anim"
+        },
+        {
+            "name": "duck_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/duck_down.anim"
+        },
+        {
+            "name": "duck_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/duck_side.anim"
+        },
+        {
+            "name": "duck_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/duck_up.anim"
+        },
+        {
+            "name": "gun_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_down.anim"
+        },
+        {
+            "name": "gun_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_side-overlay.anim"
+        },
+        {
+            "name": "gun_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_side.anim"
+        },
+        {
+            "name": "gun_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/gun_walk_up.anim"
+        },
+        {
+            "name": "hammer_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hammer_attack_down-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hammer_attack_down.anim"
+        },
+        {
+            "name": "hammer_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hammer_attack_side-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hammer_attack_side.anim"
+        },
+        {
+            "name": "hammer_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hammer_attack_up.anim"
+        },
+        {
+            "name": "hit_A_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hit_A_down.anim"
+        },
+        {
+            "name": "hit_A_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hit_A_side.anim"
+        },
+        {
+            "name": "hit_A_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hit_A_up.anim"
+        },
+        {
+            "name": "hit_B_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hit_B_down.anim"
+        },
+        {
+            "name": "hit_B_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hit_B_side.anim"
+        },
+        {
+            "name": "hit_B_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/hit_B_up.anim"
+        },
+        {
+            "name": "idle_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/idle_down.anim"
+        },
+        {
+            "name": "idle_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/idle_side.anim"
+        },
+        {
+            "name": "idle_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/idle_up.anim"
+        },
+        {
+            "name": "jump_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/jump_down.anim"
+        },
+        {
+            "name": "jump_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/jump_side.anim"
+        },
+        {
+            "name": "jump_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/jump_up.anim"
+        },
+        {
+            "name": "muzzle_flash_gun",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/muzzle_flash_gun.anim"
+        },
+        {
+            "name": "muzzle_flash_rifle",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/muzzle_flash_rifle.anim"
+        },
+        {
+            "name": "rifle_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_down.anim"
+        },
+        {
+            "name": "rifle_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_side-overlay.anim"
+        },
+        {
+            "name": "rifle_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_side.anim"
+        },
+        {
+            "name": "rifle_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/rifle_walk_up.anim"
+        },
+        {
+            "name": "run_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/run_down.anim"
+        },
+        {
+            "name": "run_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/run_side.anim"
+        },
+        {
+            "name": "run_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/run_up.anim"
+        },
+        {
+            "name": "scythe_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/scythe_attack_down-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/scythe_attack_down.anim"
+        },
+        {
+            "name": "scythe_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/scythe_attack_side-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/scythe_attack_side.anim"
+        },
+        {
+            "name": "scythe_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/scythe_attack_up.anim"
+        },
+        {
+            "name": "slide_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/slide_down.anim"
+        },
+        {
+            "name": "slide_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/slide_side.anim"
+        },
+        {
+            "name": "slide_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/slide_up.anim"
+        },
+        {
+            "name": "sword_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/sword_attack_down-overlay.anim"
+        },
+        {
+            "name": "sword_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/sword_attack_down.anim"
+        },
+        {
+            "name": "sword_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/sword_attack_side-overlay.anim"
+        },
+        {
+            "name": "sword_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/sword_attack_side.anim"
+        },
+        {
+            "name": "sword_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/sword_attack_up.anim"
+        },
+        {
+            "name": "vanish",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/vanish.anim"
+        },
+        {
+            "name": "walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/walk_down.anim"
+        },
+        {
+            "name": "walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/walk_side.anim"
+        },
+        {
+            "name": "walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/walk_up.anim"
+        },
+        {
+            "name": "weapon_bow_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_bow_down.anim"
+        },
+        {
+            "name": "weapon_bow_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_bow_side.anim"
+        },
+        {
+            "name": "weapon_bow_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_bow_up.anim"
+        },
+        {
+            "name": "weapon_hammer_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_hammer_down.anim"
+        },
+        {
+            "name": "weapon_hammer_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_hammer_side.anim"
+        },
+        {
+            "name": "weapon_hammer_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_hammer_up.anim"
+        },
+        {
+            "name": "weapon_scythe_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_scythe_down.anim"
+        },
+        {
+            "name": "weapon_scythe_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_scythe_side.anim"
+        },
+        {
+            "name": "weapon_scythe_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_scythe_up.anim"
+        },
+        {
+            "name": "weapon_sword_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_sword_down.anim"
+        },
+        {
+            "name": "weapon_sword_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_sword_side.anim"
+        },
+        {
+            "name": "weapon_sword_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant B/Animations/weapon_sword_up.anim"
+        },
+        {
+            "name": "bomb",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb.anim"
+        },
+        {
+            "name": "bomb_explosion",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_explosion.anim"
+        },
+        {
+            "name": "bomb_hold_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_hold_down.anim"
+        },
+        {
+            "name": "bomb_hold_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_hold_side-overlay.anim"
+        },
+        {
+            "name": "bomb_hold_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_hold_side.anim"
+        },
+        {
+            "name": "bomb_hold_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_hold_up.anim"
+        },
+        {
+            "name": "bomb_throw_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_throw_down.anim"
+        },
+        {
+            "name": "bomb_throw_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_throw_side.anim"
+        },
+        {
+            "name": "bomb_throw_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_throw_up.anim"
+        },
+        {
+            "name": "bomb_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_walk_down.anim"
+        },
+        {
+            "name": "bomb_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_walk_side-overlay.anim"
+        },
+        {
+            "name": "bomb_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_walk_side.anim"
+        },
+        {
+            "name": "bomb_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bomb_walk_up.anim"
+        },
+        {
+            "name": "bow_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bow_down-overlay.anim"
+        },
+        {
+            "name": "bow_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bow_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bow_walk_down-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bow_walk_down.anim"
+        },
+        {
+            "name": "bow_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bow_walk_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bow_walk_side.anim"
+        },
+        {
+            "name": "bow_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/bow_walk_up.anim"
+        },
+        {
+            "name": "crawl_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/crawl_down.anim"
+        },
+        {
+            "name": "crawl_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/crawl_side.anim"
+        },
+        {
+            "name": "crawl_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/crawl_up.anim"
+        },
+        {
+            "name": "duck_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/duck_down.anim"
+        },
+        {
+            "name": "duck_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/duck_side.anim"
+        },
+        {
+            "name": "duck_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/duck_up.anim"
+        },
+        {
+            "name": "gun_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_down.anim"
+        },
+        {
+            "name": "gun_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_side-overlay.anim"
+        },
+        {
+            "name": "gun_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_side.anim"
+        },
+        {
+            "name": "gun_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/gun_walk_up.anim"
+        },
+        {
+            "name": "hammer_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hammer_attack_down-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hammer_attack_down.anim"
+        },
+        {
+            "name": "hammer_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hammer_attack_side-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hammer_attack_side.anim"
+        },
+        {
+            "name": "hammer_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hammer_attack_up.anim"
+        },
+        {
+            "name": "hit_A_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hit_A_down.anim"
+        },
+        {
+            "name": "hit_A_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hit_A_side.anim"
+        },
+        {
+            "name": "hit_A_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hit_A_up.anim"
+        },
+        {
+            "name": "hit_B_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hit_B_down.anim"
+        },
+        {
+            "name": "hit_B_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hit_B_side.anim"
+        },
+        {
+            "name": "hit_B_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/hit_B_up.anim"
+        },
+        {
+            "name": "idle_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_down.anim"
+        },
+        {
+            "name": "idle_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_side.anim"
+        },
+        {
+            "name": "idle_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/idle_up.anim"
+        },
+        {
+            "name": "jump_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/jump_down.anim"
+        },
+        {
+            "name": "jump_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/jump_side.anim"
+        },
+        {
+            "name": "jump_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/jump_up.anim"
+        },
+        {
+            "name": "muzzle_flash_gun",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/muzzle_flash_gun.anim"
+        },
+        {
+            "name": "muzzle_flash_rifle",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/muzzle_flash_rifle.anim"
+        },
+        {
+            "name": "rifle_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/rifle_walk_down.anim"
+        },
+        {
+            "name": "rifle_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/rifle_walk_side-overlay.anim"
+        },
+        {
+            "name": "rifle_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/rifle_walk_side.anim"
+        },
+        {
+            "name": "rifle_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/rifle_walk_up.anim"
+        },
+        {
+            "name": "run_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/run_down.anim"
+        },
+        {
+            "name": "run_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/run_side.anim"
+        },
+        {
+            "name": "run_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/run_up.anim"
+        },
+        {
+            "name": "scythe_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/scythe_attack_down-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/scythe_attack_down.anim"
+        },
+        {
+            "name": "scythe_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/scythe_attack_side-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/scythe_attack_side.anim"
+        },
+        {
+            "name": "scythe_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/scythe_attack_up.anim"
+        },
+        {
+            "name": "slide_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/slide_down.anim"
+        },
+        {
+            "name": "slide_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/slide_side.anim"
+        },
+        {
+            "name": "slide_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/slide_up.anim"
+        },
+        {
+            "name": "sword_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/sword_attack_down-overlay.anim"
+        },
+        {
+            "name": "sword_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/sword_attack_down.anim"
+        },
+        {
+            "name": "sword_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/sword_attack_side-overlay.anim"
+        },
+        {
+            "name": "sword_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/sword_attack_side.anim"
+        },
+        {
+            "name": "sword_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/sword_attack_up.anim"
+        },
+        {
+            "name": "vanish",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/vanish.anim"
+        },
+        {
+            "name": "walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/walk_down.anim"
+        },
+        {
+            "name": "walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/walk_side.anim"
+        },
+        {
+            "name": "walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/walk_up.anim"
+        },
+        {
+            "name": "weapon_bow_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_bow_down.anim"
+        },
+        {
+            "name": "weapon_bow_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_bow_side.anim"
+        },
+        {
+            "name": "weapon_bow_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_bow_up.anim"
+        },
+        {
+            "name": "weapon_hammer_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_hammer_down.anim"
+        },
+        {
+            "name": "weapon_hammer_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_hammer_side.anim"
+        },
+        {
+            "name": "weapon_hammer_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_hammer_up.anim"
+        },
+        {
+            "name": "weapon_scythe_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_scythe_down.anim"
+        },
+        {
+            "name": "weapon_scythe_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_scythe_side.anim"
+        },
+        {
+            "name": "weapon_scythe_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_scythe_up.anim"
+        },
+        {
+            "name": "weapon_sword_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_sword_down.anim"
+        },
+        {
+            "name": "weapon_sword_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_sword_side.anim"
+        },
+        {
+            "name": "weapon_sword_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant C/Animations/weapon_sword_up.anim"
+        },
+        {
+            "name": "bomb",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb.anim"
+        },
+        {
+            "name": "bomb_explosion",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_explosion.anim"
+        },
+        {
+            "name": "bomb_hold_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_hold_down.anim"
+        },
+        {
+            "name": "bomb_hold_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_hold_side-overlay.anim"
+        },
+        {
+            "name": "bomb_hold_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_hold_side.anim"
+        },
+        {
+            "name": "bomb_hold_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_hold_up.anim"
+        },
+        {
+            "name": "bomb_throw_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_throw_down.anim"
+        },
+        {
+            "name": "bomb_throw_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_throw_side.anim"
+        },
+        {
+            "name": "bomb_throw_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_throw_up.anim"
+        },
+        {
+            "name": "bomb_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_walk_down.anim"
+        },
+        {
+            "name": "bomb_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_walk_side-overlay.anim"
+        },
+        {
+            "name": "bomb_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_walk_side.anim"
+        },
+        {
+            "name": "bomb_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bomb_walk_up.anim"
+        },
+        {
+            "name": "bow_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bow_down-overlay.anim"
+        },
+        {
+            "name": "bow_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bow_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bow_walk_down-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bow_walk_down.anim"
+        },
+        {
+            "name": "bow_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bow_walk_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bow_walk_side.anim"
+        },
+        {
+            "name": "bow_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/bow_walk_up.anim"
+        },
+        {
+            "name": "crawl_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/crawl_down.anim"
+        },
+        {
+            "name": "crawl_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/crawl_side.anim"
+        },
+        {
+            "name": "crawl_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/crawl_up.anim"
+        },
+        {
+            "name": "duck_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/duck_down.anim"
+        },
+        {
+            "name": "duck_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/duck_side.anim"
+        },
+        {
+            "name": "duck_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/duck_up.anim"
+        },
+        {
+            "name": "gun_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_down.anim"
+        },
+        {
+            "name": "gun_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_side-overlay.anim"
+        },
+        {
+            "name": "gun_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_side.anim"
+        },
+        {
+            "name": "gun_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/gun_walk_up.anim"
+        },
+        {
+            "name": "hammer_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hammer_attack_down-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hammer_attack_down.anim"
+        },
+        {
+            "name": "hammer_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hammer_attack_side-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hammer_attack_side.anim"
+        },
+        {
+            "name": "hammer_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hammer_attack_up.anim"
+        },
+        {
+            "name": "hit_A_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hit_A_down.anim"
+        },
+        {
+            "name": "hit_A_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hit_A_side.anim"
+        },
+        {
+            "name": "hit_A_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hit_A_up.anim"
+        },
+        {
+            "name": "hit_B_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hit_B_down.anim"
+        },
+        {
+            "name": "hit_B_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hit_B_side.anim"
+        },
+        {
+            "name": "hit_B_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/hit_B_up.anim"
+        },
+        {
+            "name": "idle_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/idle_down.anim"
+        },
+        {
+            "name": "idle_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/idle_side.anim"
+        },
+        {
+            "name": "idle_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/idle_up.anim"
+        },
+        {
+            "name": "jump_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/jump_down.anim"
+        },
+        {
+            "name": "jump_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/jump_side.anim"
+        },
+        {
+            "name": "jump_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/jump_up.anim"
+        },
+        {
+            "name": "muzzle_flash_gun",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/muzzle_flash_gun.anim"
+        },
+        {
+            "name": "muzzle_flash_rifle",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/muzzle_flash_rifle.anim"
+        },
+        {
+            "name": "rifle_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/rifle_walk_down.anim"
+        },
+        {
+            "name": "rifle_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/rifle_walk_side-overlay.anim"
+        },
+        {
+            "name": "rifle_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/rifle_walk_side.anim"
+        },
+        {
+            "name": "rifle_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/rifle_walk_up.anim"
+        },
+        {
+            "name": "run_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/run_down.anim"
+        },
+        {
+            "name": "run_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/run_side.anim"
+        },
+        {
+            "name": "run_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/run_up.anim"
+        },
+        {
+            "name": "scythe_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/scythe_attack_down-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/scythe_attack_down.anim"
+        },
+        {
+            "name": "scythe_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/scythe_attack_side-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/scythe_attack_side.anim"
+        },
+        {
+            "name": "scythe_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/scythe_attack_up.anim"
+        },
+        {
+            "name": "slide_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/slide_down.anim"
+        },
+        {
+            "name": "slide_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/slide_side.anim"
+        },
+        {
+            "name": "slide_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/slide_up.anim"
+        },
+        {
+            "name": "sword_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/sword_attack_down-overlay.anim"
+        },
+        {
+            "name": "sword_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/sword_attack_down.anim"
+        },
+        {
+            "name": "sword_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/sword_attack_side-overlay.anim"
+        },
+        {
+            "name": "sword_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/sword_attack_side.anim"
+        },
+        {
+            "name": "sword_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/sword_attack_up.anim"
+        },
+        {
+            "name": "vanish",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/vanish.anim"
+        },
+        {
+            "name": "walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/walk_down.anim"
+        },
+        {
+            "name": "walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/walk_side.anim"
+        },
+        {
+            "name": "walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/walk_up.anim"
+        },
+        {
+            "name": "weapon_bow_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_bow_down.anim"
+        },
+        {
+            "name": "weapon_bow_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_bow_side.anim"
+        },
+        {
+            "name": "weapon_bow_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_bow_up.anim"
+        },
+        {
+            "name": "weapon_hammer_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_hammer_down.anim"
+        },
+        {
+            "name": "weapon_hammer_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_hammer_side.anim"
+        },
+        {
+            "name": "weapon_hammer_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_hammer_up.anim"
+        },
+        {
+            "name": "weapon_scythe_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_scythe_down.anim"
+        },
+        {
+            "name": "weapon_scythe_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_scythe_side.anim"
+        },
+        {
+            "name": "weapon_scythe_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_scythe_up.anim"
+        },
+        {
+            "name": "weapon_sword_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_sword_down.anim"
+        },
+        {
+            "name": "weapon_sword_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_sword_side.anim"
+        },
+        {
+            "name": "weapon_sword_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant D/Animations/weapon_sword_up.anim"
+        },
+        {
+            "name": "bomb",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb.anim"
+        },
+        {
+            "name": "bomb_explosion",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_explosion.anim"
+        },
+        {
+            "name": "bomb_hold_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_hold_down.anim"
+        },
+        {
+            "name": "bomb_hold_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_hold_side-overlay.anim"
+        },
+        {
+            "name": "bomb_hold_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_hold_side.anim"
+        },
+        {
+            "name": "bomb_hold_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_hold_up.anim"
+        },
+        {
+            "name": "bomb_throw_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_throw_down.anim"
+        },
+        {
+            "name": "bomb_throw_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_throw_side.anim"
+        },
+        {
+            "name": "bomb_throw_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_throw_up.anim"
+        },
+        {
+            "name": "bomb_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_walk_down.anim"
+        },
+        {
+            "name": "bomb_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_walk_side-overlay.anim"
+        },
+        {
+            "name": "bomb_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_walk_side.anim"
+        },
+        {
+            "name": "bomb_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bomb_walk_up.anim"
+        },
+        {
+            "name": "bow_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bow_down-overlay.anim"
+        },
+        {
+            "name": "bow_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bow_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bow_walk_down-overlay.anim"
+        },
+        {
+            "name": "bow_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bow_walk_down.anim"
+        },
+        {
+            "name": "bow_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bow_walk_side-overlay.anim"
+        },
+        {
+            "name": "bow_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bow_walk_side.anim"
+        },
+        {
+            "name": "bow_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/bow_walk_up.anim"
+        },
+        {
+            "name": "crawl_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/crawl_down.anim"
+        },
+        {
+            "name": "crawl_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/crawl_side.anim"
+        },
+        {
+            "name": "crawl_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/crawl_up.anim"
+        },
+        {
+            "name": "duck_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/duck_down.anim"
+        },
+        {
+            "name": "duck_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/duck_side.anim"
+        },
+        {
+            "name": "duck_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/duck_up.anim"
+        },
+        {
+            "name": "gun_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_down.anim"
+        },
+        {
+            "name": "gun_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_side-overlay.anim"
+        },
+        {
+            "name": "gun_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_side.anim"
+        },
+        {
+            "name": "gun_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/gun_walk_up.anim"
+        },
+        {
+            "name": "hammer_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hammer_attack_down-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hammer_attack_down.anim"
+        },
+        {
+            "name": "hammer_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hammer_attack_side-overlay.anim"
+        },
+        {
+            "name": "hammer_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hammer_attack_side.anim"
+        },
+        {
+            "name": "hammer_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hammer_attack_up.anim"
+        },
+        {
+            "name": "hit_A_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hit_A_down.anim"
+        },
+        {
+            "name": "hit_A_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hit_A_side.anim"
+        },
+        {
+            "name": "hit_A_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hit_A_up.anim"
+        },
+        {
+            "name": "hit_B_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hit_B_down.anim"
+        },
+        {
+            "name": "hit_B_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hit_B_side.anim"
+        },
+        {
+            "name": "hit_B_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/hit_B_up.anim"
+        },
+        {
+            "name": "idle_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/idle_down.anim"
+        },
+        {
+            "name": "idle_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/idle_side.anim"
+        },
+        {
+            "name": "idle_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/idle_up.anim"
+        },
+        {
+            "name": "jump_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/jump_down.anim"
+        },
+        {
+            "name": "jump_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/jump_side.anim"
+        },
+        {
+            "name": "jump_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/jump_up.anim"
+        },
+        {
+            "name": "muzzle_flash_gun",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/muzzle_flash_gun.anim"
+        },
+        {
+            "name": "muzzle_flash_rifle",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/muzzle_flash_rifle.anim"
+        },
+        {
+            "name": "rifle_walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/rifle_walk_down.anim"
+        },
+        {
+            "name": "rifle_walk_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/rifle_walk_side-overlay.anim"
+        },
+        {
+            "name": "rifle_walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/rifle_walk_side.anim"
+        },
+        {
+            "name": "rifle_walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/rifle_walk_up.anim"
+        },
+        {
+            "name": "run_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/run_down.anim"
+        },
+        {
+            "name": "run_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/run_side.anim"
+        },
+        {
+            "name": "run_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/run_up.anim"
+        },
+        {
+            "name": "scythe_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/scythe_attack_down-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/scythe_attack_down.anim"
+        },
+        {
+            "name": "scythe_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/scythe_attack_side-overlay.anim"
+        },
+        {
+            "name": "scythe_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/scythe_attack_side.anim"
+        },
+        {
+            "name": "scythe_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/scythe_attack_up.anim"
+        },
+        {
+            "name": "slide_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/slide_down.anim"
+        },
+        {
+            "name": "slide_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/slide_side.anim"
+        },
+        {
+            "name": "slide_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/slide_up.anim"
+        },
+        {
+            "name": "sword_attack_down-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/sword_attack_down-overlay.anim"
+        },
+        {
+            "name": "sword_attack_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/sword_attack_down.anim"
+        },
+        {
+            "name": "sword_attack_side-overlay",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/sword_attack_side-overlay.anim"
+        },
+        {
+            "name": "sword_attack_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/sword_attack_side.anim"
+        },
+        {
+            "name": "sword_attack_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/sword_attack_up.anim"
+        },
+        {
+            "name": "vanish",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/vanish.anim"
+        },
+        {
+            "name": "walk_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/walk_down.anim"
+        },
+        {
+            "name": "walk_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/walk_side.anim"
+        },
+        {
+            "name": "walk_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/walk_up.anim"
+        },
+        {
+            "name": "weapon_bow_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_bow_down.anim"
+        },
+        {
+            "name": "weapon_bow_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_bow_side.anim"
+        },
+        {
+            "name": "weapon_bow_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_bow_up.anim"
+        },
+        {
+            "name": "weapon_hammer_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_hammer_down.anim"
+        },
+        {
+            "name": "weapon_hammer_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_hammer_side.anim"
+        },
+        {
+            "name": "weapon_hammer_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_hammer_up.anim"
+        },
+        {
+            "name": "weapon_scythe_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_scythe_down.anim"
+        },
+        {
+            "name": "weapon_scythe_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_scythe_side.anim"
+        },
+        {
+            "name": "weapon_scythe_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_scythe_up.anim"
+        },
+        {
+            "name": "weapon_sword_down",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_sword_down.anim"
+        },
+        {
+            "name": "weapon_sword_side",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_sword_side.anim"
+        },
+        {
+            "name": "weapon_sword_up",
+            "path": "Assets/Art/COPY SPRIGHT/Comic Battle Royale/2D Character - Astronaut/Variant E/Animations/weapon_sword_up.anim"
+        },
+        {
+            "name": "HumanoidDefault",
+            "path": "Packages/com.unity.timeline/Editor/StyleSheets/res/HumanoidDefault.anim"
+        }
+    ]
+}
