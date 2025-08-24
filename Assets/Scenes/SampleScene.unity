@@ -610,6 +610,8 @@ MonoBehaviour:
   jumpKey: 32
   duckKey: 306
   slideKey: 9
+  toggleableRunning: 0
+  toggleableDucking: 0
 --- !u!4 &681619961
 Transform:
   m_ObjectHideFlags: 0

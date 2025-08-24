@@ -18,6 +18,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private KeyCode jumpKey = KeyCode.Space;
     [SerializeField] private KeyCode duckKey = KeyCode.LeftControl;
     [SerializeField] private KeyCode slideKey = KeyCode.X;
+    [SerializeField] private bool toggleableRunning = false;
+    [SerializeField] private bool toggleableDucking = false;
+    
 
     // Components
     private Vector2 inputDirection;
@@ -68,9 +71,36 @@ public class PlayerMovement : MonoBehaviour
             inputDirection = Vector2.zero;
         }
 
-        isRunning = Input.GetKey(runKey);
-        bool duckPressed = Input.GetKey(duckKey);
-        isDucking = duckPressed && !isSliding;
+        if (toggleableRunning)
+        {
+            if (Input.GetKeyDown(runKey))
+            {
+                isRunning = !isRunning;;
+            }
+        }
+        else
+        {
+            Debug.Log("Running key");
+            isRunning = Input.GetKey(runKey);
+        }
+
+        if (rb.velocity.magnitude < 0.1f)
+        {
+            isRunning = false;
+        }
+        
+        if (toggleableDucking && !isSliding)
+        {
+            if (Input.GetKeyDown(duckKey))
+            {
+                isDucking = !isDucking;;
+            }
+        }
+        else if (!isSliding)
+        {
+            isDucking = Input.GetKey(duckKey);
+        }
+        
 
         if (animationController != null)
         {
@@ -120,7 +150,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void ApplyMovement() { rb.velocity = currentVelocity; }
 
-    private void UpdateAnimations()
+    private void UpdateAnimations() 
     {
         if (animationController == null) return;
         animationController.SetMovementDirection(inputDirection, currentVelocity.magnitude / walkSpeed);
