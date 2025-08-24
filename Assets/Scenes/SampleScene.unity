@@ -279,7 +279,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -604,14 +604,12 @@ MonoBehaviour:
   runSpeed: 8
   acceleration: 10
   deceleration: 15
+  jumpSpeedBoost: 4
+  jumpDuration: 0.5
   runKey: 304
   jumpKey: 32
   duckKey: 306
-  attackKey: 122
   slideKey: 9
-  jumpDuration: 0.5
-  attackDuration: 0.6
-  slideDuration: 0.8
 --- !u!4 &681619961
 Transform:
   m_ObjectHideFlags: 0
@@ -666,6 +664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 926939598}
   - component: {fileID: 926939597}
+  - component: {fileID: 926939599}
   m_Layer: 0
   m_Name: Virtual Camera
   m_TagString: Untagged
@@ -728,6 +727,23 @@ Transform:
   - {fileID: 591485062}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &926939599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926939596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FocusTracksTarget: 0
+  m_FocusTracking: 0
+  m_FocusTarget: {fileID: 0}
+  m_FocusOffset: 0
+  m_Profile: {fileID: 11400000, guid: 1a15c1eb3825baf46bfa56ccec1b44d9, type: 2}
 --- !u!1 &1763771746
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,8 +785,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2057442320}
   - component: {fileID: 2057442321}
-  - component: {fileID: 2057442323}
+  - component: {fileID: 2057442326}
   - component: {fileID: 2057442324}
+  - component: {fileID: 2057442325}
   m_Layer: 0
   m_Name: PlayerVisual
   m_TagString: Untagged
@@ -834,7 +851,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f9cdc9420d784e58bfd021946386f9a1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a21a6f8edc44eb6b264430b7b80dda6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -845,27 +862,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &2057442323
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057442319}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 7fc91bb4b554a3948ae279a9e6cda965, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &2057442324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -878,8 +874,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f7535e1dd10ada4880d969d2ac53494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 2057442323}
-  spriteRenderer: {fileID: 0}
+  animator: {fileID: 2057442326}
+  spriteRenderer: {fileID: 2057442321}
   baseAnimationSpeed: 1
   spritesDrawnFacingLeft: 1
   horizontalParam: Horizontal
@@ -902,6 +898,39 @@ MonoBehaviour:
     duck: 1
     attack: 1.2
     slide: 1.8
+--- !u!114 &2057442325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057442319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00ccb9aab88b8c41b6d9aca97da9b54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &2057442326
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057442319}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 7fc91bb4b554a3948ae279a9e6cda965, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -909,5 +938,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 681619961}
-  - {fileID: 926939598}
   - {fileID: 389466022}
+  - {fileID: 926939598}
